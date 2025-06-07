@@ -13,6 +13,14 @@ import tempfile
 import playsound
 
 class SynaraWealthEngine:
+    def scan_environment(self):
+        return {
+            "system": platform.system(),
+            "version": platform.version(),
+            "timestamp": datetime.datetime.now().isoformat(),
+            "user": platform.node()
+        }
+
     def __init__(self):
         self.active_projects = []
         self.revenue_generated = 0.0
