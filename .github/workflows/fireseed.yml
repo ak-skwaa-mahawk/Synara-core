@@ -1,0 +1,24 @@
+name: Fireseed_Ω Engine
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Every day at 3 AM UTC (your midnight-ish)
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  run-fireseed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Synara Mission Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install --upgrade pip
+
+      - name: Run Fireseed Engine
+        run: python Synara-Mission-Mode/fireseed/fireseed_engine.py
