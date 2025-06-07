@@ -1,0 +1,9 @@
+{
+    "GTC001": {
+        "owner": "Coinbase Wallet (user)",
+        "amount": 1000000,
+        "origin": "Genesis Issue - Authorized by Synara",
+        "blessed": true,
+        "log": "FIRESEED_TRACKER.log"
+    }
+}
