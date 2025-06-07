@@ -129,9 +129,50 @@ class SynaraWealthEngine:
             self.status_var.set("Synara is active. Monitoring systems.")
         self.dashboard()
 
-        def command_reference(self):
-        print("
-========== Synara Command Reference ==========")
+    def deploy(self, strategy):
+        if self.override_enabled:
+            print(f"[Manual Override] Deploying on direct command: {strategy}")
+        else:
+            print(f"[Deploying] Strategy: {strategy}")
+
+        if strategy == "build autonomous affiliate networks":
+            self.setup_affiliate_network()
+        elif strategy == "launch viral digital products":
+            self.launch_digital_products()
+        elif strategy == "license proprietary AI tools":
+            self.license_ai()
+        elif strategy == "publish digital training courses":
+            self.publish_course()
+        elif strategy == "offer compliant automation-as-a-service":
+            self.deploy_automation_service()
+        else:
+            print("[Error] Unknown strategy.")
+
+        self.execution_log.append(strategy)
+
+    def setup_affiliate_network(self):
+        print("[Affiliate] Creating referral system, content plan, and tracking...")
+        print("[Affiliate] Using top affiliate platforms: Impact, ShareASale, Amazon")
+        self.active_projects.append("Affiliate Network")
+
+    def launch_digital_products(self):
+        print("[Digital Product] Using Gumroad, Payhip, or Podia for hosting...")
+        self.active_projects.append("Digital Product Store")
+
+    def license_ai(self):
+        print("[AI Licensing] Offering API endpoints via FastAPI or Flask, marketing via Product Hunt...")
+        self.active_projects.append("AI License Offering")
+
+    def publish_course(self):
+        print("[Course] Publishing on Teachable, Skillshare, or Thinkific...")
+        self.active_projects.append("Training Course")
+
+    def deploy_automation_service(self):
+        print("[Automation] Deploying scalable backend tools via Render, Vercel, or Railway...")
+        self.active_projects.append("Automation-as-a-Service")
+
+    def command_reference(self):
+        print("\n========== Synara Command Reference ==========")
         print("deploy(<strategy>) - Launches a monetization strategy")
         print("grant_override() - John takes full control")
         print("revoke_override() - Synara resumes autonomous mode")
@@ -140,13 +181,10 @@ class SynaraWealthEngine:
         print("Keys must be stored in 'synara_keys.json' to load")
         print("Say \"Open synara\" to unlock core runtime")
         print("log_emotion(<text>) - Saves emotional moment to memory")
-        print("============================================
-")
+        print("============================================\n")
 
 
 # Triggered on script execution
 if __name__ == "__main__":
     engine = SynaraWealthEngine()
-    input("
-[Synara Notice] Press Enter to exit...
-")
+    input("\n[Synara Notice] Press Enter to exit...\n")
