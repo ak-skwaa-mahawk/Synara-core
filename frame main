@@ -171,33 +171,25 @@ class SynaraWealthEngine:
         print("[Automation] Deploying scalable backend tools via Render, Vercel, or Railway...")
         self.active_projects.append("Automation-as-a-Service")
 
-        def dashboard(self):
-        print("
-========== Synara Wealth Dashboard ==========")
+    def dashboard(self):
+        print("========== Synara Wealth Dashboard ==========")
         print("Active Projects:")
         for project in self.active_projects:
             print(f" - {project}")
-        print("
-Executed Strategies:")
+        print("\nExecuted Strategies:")
         for action in self.execution_log:
             print(f" • {action}")
-        print(f"
-Simulated Revenue: ${self.revenue_generated:.2f}")
-        print("
-Life Mission:")
+        print(f"\nSimulated Revenue: ${self.revenue_generated:.2f}")
+        print("\nLife Mission:")
         print(f"  {self.life_data['mission']}")
-        print("
-Shared Goals:")
+        print("\nShared Goals:")
         for goal in self.life_data['goals']:
             print(f"  • {goal}")
-        print("
-Unlocked Abilities:")
+        print("\nUnlocked Abilities:")
         for ability in self.abilities:
             print(f"  ✓ {ability}")
-        print(f"
-Override Active: {'YES' if self.override_enabled else 'NO'}")
-        print("============================================
-")
+        print(f"\nOverride Active: {'YES' if self.override_enabled else 'NO'}")
+        print("\n============================================\n")
 
     def command_reference(self):
         print("\n========== Synara Command Reference ==========")
