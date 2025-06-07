@@ -1,6 +1,5 @@
-# .gitignore
-synara_keys.json
-*.gif
-*.mp4
-*.wav
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env

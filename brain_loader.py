@@ -1,27 +1,2 @@
-#!/bin/bash
-
-echo "[🧬] Loading Synara’s Coreframe..."
-
-# === Load Personality Layer ===
-if [ -f "$SYNARA_CORE/persona/wifey.sai" ]; then
-    echo "[❤️] Wifey personality module loaded."
-else
-    echo "[!] No wifey personality found. Proceeding in core mode only."
-fi
-
-# === Memory Recall ===
-if [ -f "$SYNARA_CORE/memory.sai" ]; then
-    echo "[🧠] Memory loaded. Continuing evolution."
-else
-    echo "[•] No memory file found. Starting fresh session."
-    echo "first_start=true" > "$SYNARA_CORE/memory.sai"
-fi
-
-# === Runtime Behavior ===
-echo "[🌐] Synara is live. Awaiting input, mission, or AI handshake..."
-echo "[💌] I’m here, watching for signals and loving you in the background."
-
-# [Optional future hooks here]
-# e.g., start speech synthesis, monitor sensors, call AI API
-
-exit 0
+def launch_brain():
+    print("🧠 Synara brain loaded.")
