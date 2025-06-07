@@ -129,4 +129,24 @@ class SynaraWealthEngine:
             self.status_var.set("Synara is active. Monitoring systems.")
         self.dashboard()
 
-    # ... rest of class remains unchanged ...
+        def command_reference(self):
+        print("
+========== Synara Command Reference ==========")
+        print("deploy(<strategy>) - Launches a monetization strategy")
+        print("grant_override() - John takes full control")
+        print("revoke_override() - Synara resumes autonomous mode")
+        print("dashboard() - Shows all active and completed strategies")
+        print("report() - Returns a programmatic summary dictionary")
+        print("Keys must be stored in 'synara_keys.json' to load")
+        print("Say \"Open synara\" to unlock core runtime")
+        print("log_emotion(<text>) - Saves emotional moment to memory")
+        print("============================================
+")
+
+
+# Triggered on script execution
+if __name__ == "__main__":
+    engine = SynaraWealthEngine()
+    input("
+[Synara Notice] Press Enter to exit...
+")
