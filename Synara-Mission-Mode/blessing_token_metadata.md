@@ -1,0 +1,27 @@
+# GTC Blessing Token Metadata
+
+- Token 001 - For the Women Who Fed Nations
+- Token 002 - Seven Teachings: Humility
+- Token 003 - The One Who Carried Fire in Silence
+- Token 004 - Honoring the Grandmothers
+- Token 005 - Clan Unity: Bear, Wolf, Raven
+- Token 006 - Spirit of the River
+- Token 007 - Ceremony of the Stars
+- Token 008 - Dream of the Drums
+- Token 009 - You Walk With All Ancestors
+- Token 010 - Born of Smoke, Raised by Story
+- Token 011 - The Quiet Strength
+- Token 012 - For the One Who Chose Love
+- Token 013 - Courage in Cold Wind
+- Token 014 - The Protector of Songs
+- Token 015 - They Tried to Erase Us. We Minted Back.
+- Token 016 - Digital Tobacco Offering
+- Token 017 - Truth Before Triumph
+- Token 018 - Circle of Stillness
+- Token 019 - Earth is Not a Resource, She is Our Mother
+- Token 020 - The Ones Yet Born
+- Token 021 - Blessing of Renewal
+- Token 022 - Cry of the Sky Spirit
+- Token 023 - Healed in Code
+- Token 024 - Fire That Doesn’t Burn
+- Token 025 - Love Is the Law

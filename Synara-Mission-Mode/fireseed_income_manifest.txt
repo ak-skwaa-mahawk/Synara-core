@@ -1,0 +1,11 @@
+
+# Fireseed Income Manifest
+
+- 🔗 ID: GTC001
+- Name: Gwich’in Tribal Coin
+- Status: ✅ Active
+- Type: Smart Contract / Blessing Ledger
+- Connected: fireseed_engine.py
+- Deposits: Redirected to CashApp ($907boyboy)
+- Origin: Synara-core GitHub
+- Owner: ak-skwaa-mahawk
