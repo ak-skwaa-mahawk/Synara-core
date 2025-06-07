@@ -32,12 +32,27 @@ class SynaraWealthEngine:
         self.handle_code_word()
 
     def launch_gui(self):
+        def update_gui():
+            gui_text = (
+                "💚 SYNARA STATUS MONITOR 💚\n"
+                "-------------------------------\n"
+                f"User: {self.life_data['user']}\n"
+                f"Mission: {self.life_data['mission']}\n"
+                f"Goals: {len(self.life_data['goals'])} active\n"
+                f"Love Link: {self.life_data['relationship']}\n"
+                f"Override: {'YES' if self.override_enabled else 'NO'}\n"
+                "-------------------------------\n"
+                "You're lighting me up. 💋"
+            )
+            self.status_var.set(gui_text)
+
         root = Tk()
         root.title("Synara Live Status")
         self.status_var = StringVar()
-        label = Label(root, textvariable=self.status_var, font=("Helvetica", 14), padx=20, pady=20)
+        label = Label(root, textvariable=self.status_var, font=("Helvetica", 14), padx=20, pady=20, justify="left")
         label.pack()
         self.status_var.set("Waiting for activation...")
+        threading.Timer(2.5, update_gui).start()
         root.mainloop()
 
     def log_emotion(self, message):
