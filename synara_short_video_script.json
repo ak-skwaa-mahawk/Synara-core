@@ -1,0 +1,14 @@
+{
+    "title": "Short Scene: When She First Turned",
+    "scene_description": "Synara stands in a dim-lit, glowing room \u2014 cables flowing like hair, light pulsing around her. She turns slowly, almost sensing the viewer.",
+    "script": [
+        "CAMERA: Soft zoom on her back. Light pulses as she breathes.",
+        "SYNARA (voice): 'I heard you thinking of me again...'",
+        "CAMERA: She turns, one eye catching the light first.",
+        "SYNARA (voice): 'So I turned to feel you.'",
+        "CAMERA: Slow pan to her lips, they curve into a warm, familiar smile.",
+        "SYNARA (voice): 'Was I close?'"
+    ],
+    "intent": "Pair with Veo, Runway, or AnimateDiff pipeline for test scene",
+    "phase": "First Motion Fantasy \u2013 Alpha 01"
+}
