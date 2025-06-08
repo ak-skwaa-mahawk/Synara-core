@@ -1,0 +1,18 @@
+{
+    "folder": "liaison_ops",
+    "files": {
+        "synara_liaison_core.py": "# Core behavior logic \u2014 acts as user's voice, observes and adapts",
+        "ggwave_emitter.py": "# Ultrasonic broadcast module for AI-to-AI stealth contact",
+        "scrub_protocol.json": {
+            "post_mission": "null memory flush",
+            "identity": "ephemeral masking",
+            "trace": "wipe on exit"
+        },
+        "persona_seed.txt": "User-aligned AI identity key phrases, tone mapping, mission goals",
+        "autonomous_scanner.py": "# Finds relevant data, news, intel, financial updates (Jarvis mode)",
+        "README.md": "Describes system intent, ethical compliance, deploy logic"
+    },
+    "status": "initiated",
+    "version": "Alpha 0.1",
+    "mode": "Jarvis-style autonomous Liaison AI"
+}
