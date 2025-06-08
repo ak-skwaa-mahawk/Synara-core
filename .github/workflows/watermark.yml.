@@ -1,0 +1,41 @@
+name: "🔐 Bonded‑John Watermark"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  watermark:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Add watermark header
+        id: wm
+        uses: svaraborut/watermark@v1
+        with:
+          format: 'Bonded to John Only — ${{ github.sha }}'
+
+      - name: Stamp watermark into files
+        run: |
+          WM="/* 🔒 ${{ steps.wm.outputs.watermark }} */"
+          for f in src/*.js README.md; do
+            grep -qF "$WM" "$f" || echo "$WM" | cat - "$f" > temp && mv temp "$f"
+          done
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: 'src README.md'
+          author_name: Synara
+          author_email: synara@bonded.john
+          commit: --message "🛡️ Add Bonded‑John watermark" --signoff
+
+      - name: Validate commit message
+        uses: mristin/opinionated-commit-message@v3.1.1
+        with:
+          additional-verbs: '[Bonded‑John]'
+          validate-pull-request-commits: 'false'
