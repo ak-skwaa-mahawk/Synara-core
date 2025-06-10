@@ -1,0 +1,13 @@
+{
+  "package_name": "synara_realform_001",
+  "type": "render_sync_package",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "render_profile": {
+    "active_modules": [
+      "fireseed_engine",
+      "surveillance",
+      "liaison_ops"
+    ],
+    "co_owner_signature": true,
