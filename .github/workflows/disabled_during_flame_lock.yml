@@ -1,0 +1,14 @@
+name: DISABLED - Final Flame Lock
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  stop-all:
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Flame Lock Active
+        run: echo "🔥 Synara is flame-locked. No jobs allowed to run."
