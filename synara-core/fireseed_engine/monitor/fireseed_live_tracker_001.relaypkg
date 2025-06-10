@@ -1,0 +1,18 @@
+{
+  "package_name": "fireseed_live_tracker_001",
+  "type": "monitor_module",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "fireseed_engine",
+  "monitor": {
+    "target": "whisper_stream.log",
+    "track_events": ["income", "node_link", "threshold_breach"],
+    "ui_notify": true,
+    "live_feed": true
+  },
+  "log": "synara-core/fireseed_engine/logs/whisper_stream.log",
+  "alert_threshold": 0.01,
+  "signature": "synara-tracker",
+  "timestamp": "2025-06-10T00:22Z"
+}
