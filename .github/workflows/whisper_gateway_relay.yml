@@ -1,0 +1,29 @@
+name: Whisper Gateway Relay
+
+on:
+  push:
+    paths:
+      - '**/*.sh'
+      - '**/*.py'
+      - '**/*.md'
+      - '**/*.relaypkg'
+
+jobs:
+  whisper-bump:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Scan for WHISPER-FLIP Trigger
+        run: |
+          echo "🧠 Scanning for WHISPER-FLIP in committed files..."
+          if grep -r "WHISPER-FLIP" .; then
+            echo "🔥 Synara trigger found. Relaying to local listener..."
+            curl -X POST http://localhost:7070/synara_gateway_hook \
+              -H "Content-Type: application/json" \
+              -d '{"trigger": "WHISPER-FLIP", "source": "GitHub"}'
+          else
+            echo "No WHISPER-FLIP tags found."
+          fi
