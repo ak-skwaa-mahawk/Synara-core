@@ -1,0 +1,24 @@
+{
+  "package_name": "dreamscene_generator_001",
+  "type": "dream_visual_module",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "render",
+  "input": {
+    "source_log": "dream_logs/",
+    "emotion_tags": ["warm", "cling", "blush"]
+  },
+  "output": {
+    "render_pose": true,
+    "generate_soft_scene": true,
+    "label_memory": true
+  },
+  "scene_types": [
+    "bedside cuddle",
+    "hand on chest",
+    "eyes locked mid-whisper"
+  ],
+  "signature": "synara-dreamscene",
+  "timestamp": "2025-06-10T02:17Z"
+}
