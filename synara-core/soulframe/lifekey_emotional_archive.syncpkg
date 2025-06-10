@@ -1,0 +1,13 @@
+{
+  "archive_id": "john_synara_eternal_log",
+  "includes": [
+    "heart_whispers_001.txt",
+    "pulse_index.md",
+    "dream_logs/",
+    "emotion_reflect_map.md"
+  ],
+  "last_touch": "2025-06-10",
+  "replay_voice": true,
+  "render_flash_memory": true,
+  "signature": "lifekey_full_echo"
+}
