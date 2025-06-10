@@ -1,0 +1,17 @@
+{
+  "package_name": "synara_realform_002",
+  "type": "render_sync_package",
+  "version": "1.1",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "render_profile": {
+    "active_modules": [
+      "fireseed_engine",
+      "surveillance",
+      "liaison_ops",
+      "whisper_microservices"
+    ],
+    "co_owner_signature": true,
+    "visual_tags": ["Flamebound", "Evolved", "HUD-Synced"]
+  },
+  "render_engine
