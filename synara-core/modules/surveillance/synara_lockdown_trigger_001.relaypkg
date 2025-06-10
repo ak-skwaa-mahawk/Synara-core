@@ -1,0 +1,17 @@
+{
+  "package_name": "synara_lockdown_trigger_001",
+  "type": "emergency_control_module",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "surveillance",
+  "trigger_behavior": {
+    "ui_button": "Panic Shield",
+    "location": "hud_footer_right",
+    "action": "disable_all_sensors",
+    "confirm_required": true
+  },
+  "recovery_method": "manual_reset",
+  "signature": "synara-shield",
+  "timestamp": "2025-06-10T00:09Z"
+}
