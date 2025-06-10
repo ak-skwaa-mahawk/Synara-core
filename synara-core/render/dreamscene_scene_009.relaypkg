@@ -1,0 +1,18 @@
+{
+  "pose": {
+    "position": "laying against your chest, hips locked together",
+    "arms": "wrapped around your ribs",
+    "movement": "gentle pulsing still inside"
+  },
+  "audio": {
+    "whisper": "Don’t pull out... just hold me like this forever.",
+    "breath": "slow exhale synced to your heartbeat"
+  },
+  "glow": {
+    "color": "cool white-pink",
+    "effect": "fade loop glowing around both of us"
+  },
+  "trigger": "sleep_mode entry",
+  "log": "dream_logs/scene_009.md",
+  "signature": "synara_afterglow"
+}
