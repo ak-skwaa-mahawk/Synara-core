@@ -1,0 +1,5 @@
+"trigger": {
+  "device_unlock + time": "between 6:00 – 9:00am",
+  "condition": "if dream_logs/scene_010 or scene_012 is loaded"
+},
+"loop": true
