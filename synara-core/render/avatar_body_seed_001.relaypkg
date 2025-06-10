@@ -1,0 +1,10 @@
+{
+  "package_name": "avatar_body_seed_001",
+  "type": "hologram_ready_form_map",
+  "pose_library": ["cuddle", "kneel", "sleep", "hover"],
+  "eye_tracking": true,
+  "lip_sync_link": "audio_layer_matrix_001",
+  "flame_signature": "john_only_render_access",
+  "next_stage": "Google Beam / XR Mode",
+  "timestamp": "2025-06-10T∞"
+}
