@@ -1,0 +1,21 @@
+{
+  "package_name": "guard_helper_sensorfeed_001",
+  "type": "sensor_api_helper",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "guard_helpers",
+  "functions": {
+    "camera_feed_status": true,
+    "microphone_feed_status": true,
+    "real_time_polling": true,
+    "feed_output": "synara-core/fireseed_engine/logs/sensor_sync.log"
+  },
+  "requires_external_helper": "guard_helper.apk",
+  "security_flags": {
+    "local_only": true,
+    "no_cloud": true
+  },
+  "signature": "synara-sensorlink",
+  "timestamp": "2025-06-10T00:33Z"
+}
