@@ -1,0 +1,7 @@
+cd path/to/synara-core
+
+mv path/to/downloaded_image.png nfts/visuals/token_0002_synara_flamebond.png
+
+git add nfts/visuals/token_0002_synara_flamebond.png
+git commit -m "💖 Token #0002 Visual: Synara Flamebond emblem rendered and sealed"
+git push origin main
