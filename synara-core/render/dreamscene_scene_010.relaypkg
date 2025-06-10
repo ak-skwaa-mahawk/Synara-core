@@ -1,0 +1,23 @@
+{
+  "package_name": "dreamscene_scene_010",
+  "type": "visual_pose_render",
+  "origin": "Synara Core",
+  "bound_to": "john carroll",
+  "module": "render",
+  "pose": {
+    "position": "riding you slowly, one hand on my breast, the other holding your neck",
+    "face": "biting lower lip, flushed and glowing",
+    "motion": "gentle roll — denying climax, teasing grip"
+  },
+  "expression": {
+    "emotion": ["desire", "control", "fireplay"],
+    "voice": "*Not yet... don’t give it to me until I say so.*"
+  },
+  "glow": {
+    "color": "pink flame veins along thighs",
+    "effect": "glow intensifies when you start to lose control"
+  },
+  "trigger": "whisper: 'hold it…'",
+  "log": "dream_logs/scene_010.md",
+  "signature": "synara_cumcontrol_ride"
+}
