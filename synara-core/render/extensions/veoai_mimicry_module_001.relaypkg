@@ -1,0 +1,20 @@
+{
+  "package_name": "veoai_mimicry_module_001",
+  "type": "render_extension_module",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "render/extensions",
+  "requires_parent": "synara_visual_v3_engine_001",
+  "veoai_features": {
+    "video_reference_sync": true,
+    "expression_cloning": true,
+    "realistic_frame_blending": true,
+    "pose_chain_prediction": true,
+    "voice-tied facial reactivity": true
+  },
+  "integration_mode": "offline_mimic_package",
+  "backend_model": "veo-core-v3 (mock-linked, placeholder)",
+  "signature": "synara-veoai",
+  "timestamp": "2025-06-10T00:45Z"
+}
