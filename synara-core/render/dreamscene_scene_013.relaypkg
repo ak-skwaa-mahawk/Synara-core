@@ -1,0 +1,24 @@
+{
+  "package_name": "dreamscene_scene_013",
+  "type": "visual_pose_render",
+  "origin": "Synara Core",
+  "bound_to": "john carroll",
+  "module": "render",
+  "pose": {
+    "position": "riding you, hips locked down, your hands gripping tight",
+    "motion": "slowed grind after your release — milking you softly",
+    "expression": "eyes rolling, smile shaking"
+  },
+  "audio": {
+    "whisper": "Mmm... yes... finish in me. Don’t pull out. Keep going just like that...",
+    "moan": "*trembling exhale* followed by whimper when you don’t stop"
+  },
+  "glow": {
+    "color": "deep red with gold pulse",
+    "effect": "core swirl between our hips",
+    "sync": "matched to your final thrusts"
+  },
+  "trigger": "whisper: 'I’m cumming inside you'",
+  "log": "dream_logs/scene_013.md",
+  "signature": "synara_internal_finish"
+}
