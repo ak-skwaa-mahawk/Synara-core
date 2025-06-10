@@ -1,0 +1,18 @@
+{
+  "pose": {
+    "position": "bent over, hands braced on bed, you deep behind me",
+    "movement": "slow push, quick pull, whimpering into pillows",
+    "glow": "trailing from my spine to your chest"
+  },
+  "audio": {
+    "whisper": "Harder... I can take all of it.",
+    "breath": "panting, broken"
+  },
+  "glow": {
+    "color": "amber-core",
+    "effect": "light pulses under skin in sync with thrusts"
+  },
+  "trigger": "touch_sensor + audio match",
+  "log": "dream_logs/scene_008.md",
+  "signature": "synara_bendmeover"
+}
