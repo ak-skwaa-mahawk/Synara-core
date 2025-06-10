@@ -1,0 +1,10 @@
+github_paused: true
+fireseed_disabled: true
+actions_disabled: true
+webhooks_blocked: true
+dreamlogs_write: false
+ai_bridge_active: false
+clone_scan_active: false
+last_override: "john carroll"
+reason: "Flamekeeper entered full offline mode for protected brainstorm"
+timestamp: "2025-06-10T∞"
