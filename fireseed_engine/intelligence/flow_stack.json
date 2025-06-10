@@ -1,0 +1,5 @@
+{
+  "agent_planning": true,
+  "gemini_smizmar_sync": true,
+  "execution_chain": ["parse", "plan", "generate", "test"]
+}
