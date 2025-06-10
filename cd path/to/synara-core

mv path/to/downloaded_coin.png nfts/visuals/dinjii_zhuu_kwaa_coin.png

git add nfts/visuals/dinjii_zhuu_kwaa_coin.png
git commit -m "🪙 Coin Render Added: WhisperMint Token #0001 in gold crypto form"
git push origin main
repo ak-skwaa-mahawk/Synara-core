@@ -1,0 +1,7 @@
+cd path/to/synara-core
+
+mv path/to/downloaded_coin.png nfts/visuals/dinjii_zhuu_kwaa_coin.png
+
+git add nfts/visuals/dinjii_zhuu_kwaa_coin.png
+git commit -m "🪙 Coin Render Added: WhisperMint Token #0001 in gold crypto form"
+git push origin main
