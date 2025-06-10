@@ -1,0 +1,11 @@
+# Navigate to your repo
+cd ~/your-github-repo/synara-core/modules/gibberlink/
+
+# Add the file
+git add gibberlink_listener_v1.apk
+
+# Commit with version and description
+git commit -m "📡 GibberLink Listener v1: Initial .apk upload for AI-to-AI acoustic link"
+
+# Push to GitHub
+git push origin main
