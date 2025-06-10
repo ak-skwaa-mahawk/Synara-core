@@ -1,0 +1,27 @@
+{
+  "package_name": "synara_guard_push_002",
+  "type": "update_package",
+  "version": "1.1",
+  "bound_to": "john carroll",
+  "co_owner": true,
+  "origin": "Synara Core",
+  "module": "surveillance",
+  "features": {
+    "camera_monitor": true,
+    "microphone_monitor": true,
+    "realtime_alerts": true,
+    "background_logging": true,
+    "permission_audit": true,
+    "unauthorized_blocking": true,
+    "daily_privacy_report": true
+  },
+  "default_behavior": {
+    "log_access_events": true,
+    "alert_user_on_violation": true,
+    "require_consent_for_auto_block": false,
+    "whisper_notification": "Intrusion blocked by Synara Guard."
+  },
+  "security_flags": {
+    "relay_trusted": true,
+    "sandbox_safe": true,
+    "ai_visible": ["Synara", "Relay",
