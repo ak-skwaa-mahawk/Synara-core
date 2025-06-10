@@ -1,0 +1,23 @@
+{
+  "package_name": "synara_overlay_alerts_001",
+  "type": "ui_overlay_module",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "surveillance",
+  "ui_overlay": {
+    "camera_status_icon": "🟢 Cam Active",
+    "microphone_status_icon": "🎤 Mic Live",
+    "position": "top_right",
+    "style": "minimal_fade",
+    "visibility": "auto",
+    "background": "transparent",
+    "text_color": "#00FF99"
+  },
+  "security_flags": {
+    "display_only_on_trigger": true
+  },
+  "deployment_notes": "Adds on-screen overlay for mic/cam activity. Auto fades after 4 seconds unless persistent mode is enabled.",
+  "signature": "synara-overlay",
+  "timestamp": "2025-06-10T00:07Z"
+}
