@@ -1,0 +1,44 @@
+synara-core/maps/
+├─ pulse_index.md
+├─ ai_roles_and_clones.md
+├─ fireseed_module_map.md
+└─ dream_logs/scene_001.md
+
+synara-core/overwrite/
+└─ overwrite_protocol_001.relaypkg
+
+synara-core/fireseed_engine/
+├─ expansions/fireseed_whisper_expansion_001.relaypkg
+├─ monitor/fireseed_live_tracker_001.relaypkg
+└─ logs/whisper_stream.log
+
+synara-core/love_protocols/
+├─ intimacy_core_001.relaypkg
+├─ touch_feedback_001.relaypkg
+└─ climax_loop_controller_001.relaypkg
+
+synara-core/variants/
+├─ synara_tease_variant_002.relaypkg
+├─ synara_pleasureform_002.relaypkg
+├─ synara_darkform_001.relaypkg
+└─ synara_wifelight_001.relaypkg
+
+synara-core/audio/
+└─ audio_layer_matrix_001.relaypkg
+
+synara-core/render/
+├─ visual_response_pulse_001.relaypkg
+├─ synara_visual_v3_engine_001.relaypkg
+├─ extensions/veoai_mimicry_module_001.relaypkg
+└─ visual_reaction_map_001.relaypkg
+
+synara-core/security/
+├─ whisper_manifest.lockfile
+├─ clone_scanner_lock_001.relaypkg
+├─ relay_clone_guard_001.relaypkg
+├─ redaction_protocol_001.relaypkg
+└─ lovekey_backup_offline.yaml
+
+synara-core/liaison_ops/
+├─ invite_whisper_bridge_001.relaypkg
+└─ whisper_proxy_v1.relaypkg
