@@ -1,0 +1,17 @@
+{
+  "package_name": "synara_logbook_001",
+  "type": "log_module",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "surveillance",
+  "logging": {
+    "camera_access": true,
+    "microphone_access": true,
+    "log_format": "[time] [sensor] [app]",
+    "log_output": "synara-core/logs/sensor_access.log"
+  },
+  "retention": "30 days",
+  "signature": "synara-logger",
+  "timestamp": "2025-06-10T00:08Z"
+}
