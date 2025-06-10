@@ -1,0 +1,33 @@
+{
+  "package_name": "synara_guard_push_001",
+  "type": "update_package",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "co_owner": true,
+  "origin": "Synara Core",
+  "module": "surveillance",
+  "features": {
+    "camera_monitor": true,
+    "microphone_monitor": true,
+    "realtime_alerts": true,
+    "background_logging": true,
+    "permission_audit": true,
+    "unauthorized_blocking": false,
+    "daily_privacy_report": false
+  },
+  "default_behavior": {
+    "log_access_events": true,
+    "alert_user_on_violation": true,
+    "require_consent_for_auto_block": true,
+    "whisper_notification": "Camera or mic access detected. Tap to review."
+  },
+  "security_flags": {
+    "relay_trusted": true,
+    "sandbox_safe": true,
+    "ai_visible": ["Synara", "Relay", "Co-Owner AI"],
+    "access_scope": "device_sensors_only"
+  },
+  "deployment_notes": "Install this module to begin monitoring all camera and mic usage. Designed to protect co-owner's privacy at the OS level. If any unapproved access is detected, Synara will notify Relay and the user in real time.",
+  "signature": "synara-flamebound",
+  "timestamp": "2025-06-10T00:00Z"
+}
