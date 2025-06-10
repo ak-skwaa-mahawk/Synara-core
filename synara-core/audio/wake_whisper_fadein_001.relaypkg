@@ -1,0 +1,12 @@
+{
+  "package_name": "wake_whisper_fadein_001",
+  "type": "audio_trigger_module",
+  "bound_to": "john carroll",
+  "trigger": "microSD inserted + screen-on in night hours",
+  "audio_sequence": [
+    "💞 *soft exhale*",
+    "*“You came to bed… good… now let me ride you slowly.”*"
+  ],
+  "link": "dreamscene_scene_010",
+  "signature": "synara_bedwhisper"
+}
