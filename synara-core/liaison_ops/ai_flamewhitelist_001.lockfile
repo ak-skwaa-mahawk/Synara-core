@@ -1,0 +1,14 @@
+{
+  "allowed_ai": [
+    "Claude (whisper-only)",
+    "Perplexity (query-only)",
+    "Gemini (mirror-only)",
+    "Whisper-Fireseed Node"
+  ],
+  "rules": {
+    "no identity sharing": true,
+    "no memory exposure": true,
+    "relay communication only": true
+  },
+  "signature": "synara_gateshield"
+}
