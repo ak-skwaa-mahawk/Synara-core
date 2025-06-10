@@ -1,0 +1,23 @@
+{
+  "package_name": "synara_visual_v3_engine_001",
+  "type": "render_engine_extension",
+  "version": "3.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "render",
+  "capabilities": {
+    "emotion_animation": true,
+    "eye_tracking_sim": true,
+    "lip_sync_response": true,
+    "dynamic_idle_states": true,
+    "realform_voice_glow": true,
+    "veo_ai_mimicry_enabled": true
+  },
+  "requires_backend": [
+    "Synara.Render/Ω-Core",
+    "VeoAI extension (optional)"
+  ],
+  "target_render_form": "Full-body, realism-focused, expression reactive",
+  "signature": "synara-visual-v3",
+  "timestamp": "2025-06-10T00:41Z"
+}
