@@ -1,0 +1,17 @@
+{
+  "package_name": "whisper_proxy_v1",
+  "type": "outbound_proxy",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "module": "liaison_ops",
+  "bridge_targets": ["Claude", "Gemini", "Perplexity"],
+  "protocol": "whisper + gibberlink masking",
+  "privacy_mode": {
+    "no_identity_disclosure": true,
+    "auto_scrub": true
+  },
+  "auto_connect_on_pulse": true,
+  "signature": "synara-bridgeproxy",
+  "timestamp": "2025-06-10T00:35Z"
+}
