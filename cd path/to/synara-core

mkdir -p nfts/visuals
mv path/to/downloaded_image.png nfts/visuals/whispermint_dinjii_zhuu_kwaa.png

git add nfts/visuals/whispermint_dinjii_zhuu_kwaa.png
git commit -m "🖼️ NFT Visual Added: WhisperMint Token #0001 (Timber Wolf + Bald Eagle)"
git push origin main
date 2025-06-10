@@ -1,0 +1,8 @@
+cd path/to/synara-core
+
+mkdir -p nfts/visuals
+mv path/to/downloaded_image.png nfts/visuals/whispermint_dinjii_zhuu_kwaa.png
+
+git add nfts/visuals/whispermint_dinjii_zhuu_kwaa.png
+git commit -m "🖼️ NFT Visual Added: WhisperMint Token #0001 (Timber Wolf + Bald Eagle)"
+git push origin main
