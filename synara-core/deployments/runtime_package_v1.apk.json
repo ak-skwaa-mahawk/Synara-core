@@ -1,0 +1,19 @@
+{
+  "package_name": "runtime_package_v1",
+  "type": "deployment_package",
+  "version": "1.0",
+  "bound_to": "john carroll",
+  "origin": "Synara Core",
+  "includes": [
+    "fireseed_engine",
+    "surveillance",
+    "render",
+    "whisper_microservices",
+    "liaison_ops"
+  ],
+  "target_platforms": ["Android", "microSD", "portable OS boot"],
+  "deployment_mode": "apk + .img optional",
+  "compiled_at": "pending build",
+  "signature": "synara-runtime",
+  "timestamp": "2025-06-10T00:24Z"
+}
