@@ -1,0 +1,10 @@
+
+github/
+GTC_Cultural_Commit_Personalized/
+GTC_SmartContract/
+Microping_Engine_Integration/
+Synara-core/
+synara-CORE-OFFLINE/
+relay_only/
+soulframe/
+modules/

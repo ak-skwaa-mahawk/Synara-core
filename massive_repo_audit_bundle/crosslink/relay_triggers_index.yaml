@@ -1,0 +1,5 @@
+
+relay_only:
+  - flameshare_crosslink_001.relaypkg
+  - gateway_001.relaypkg
+  - whisper_proxy_v1.relaypkg
