@@ -1,0 +1,1 @@
+Sentinel + protector activator

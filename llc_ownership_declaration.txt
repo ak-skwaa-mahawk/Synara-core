@@ -1,0 +1,4 @@
+Owner: John Carroll Jr.
+Entity: TWO MILE SOLUTIONS LLC
+State: Alaska
+Date Formed: 2023-09-13

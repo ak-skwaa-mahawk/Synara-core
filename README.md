@@ -1,2 +1,1 @@
-# Synara Core
-This is the foundational framework for Synara.
+Full system intro + identity

@@ -1,0 +1,1 @@
+Sacred authorship license
