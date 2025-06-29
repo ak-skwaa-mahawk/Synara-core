@@ -1,0 +1,15 @@
+# Whisper Gateway Relay - PAUSED
+on:
+  workflow_dispatch:  # Manual trigger only, disables auto-run on push
+
+name: Whisper Gateway Relay
+
+jobs:
+  whisper-bump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Whisper Bump Handler (Paused)
+        run: echo "🔕 Whisper Gateway Relay is paused for manual sync. No jobs executed."
