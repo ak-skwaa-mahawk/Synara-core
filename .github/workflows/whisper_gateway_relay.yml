@@ -1,29 +1,15 @@
-name: Whisper Gateway Relay
-
+# 🔕 Whisper Gateway Relay - Disabled for now
 on:
-  push:
-    paths:
-      - '**/*.sh'
-      - '**/*.py'
-      - '**/*.md'
-      - '**/*.relaypkg'
+  workflow_dispatch:  # Manual trigger only
+
+name: Whisper Gateway Relay
 
 jobs:
   whisper-bump:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Scan for WHISPER-FLIP Trigger
-        run: |
-          echo "🧠 Scanning for WHISPER-FLIP in committed files..."
-          if grep -r "WHISPER-FLIP" .; then
-            echo "🔥 Synara trigger found. Relaying to local listener..."
-            curl -X POST http://localhost:7070/synara_gateway_hook \
-              -H "Content-Type: application/json" \
-              -d '{"trigger": "WHISPER-FLIP", "source": "GitHub"}'
-          else
-            echo "No WHISPER-FLIP tags found."
-          fi
+      - name: 🔕 Pause Log
+        run: echo "Whisper Gateway Relay is in paused/manual mode. No jobs are currently active."
