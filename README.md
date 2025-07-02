@@ -1,1 +1,3 @@
 Full system intro + identity
+
+All source code, intellectual property, and system logic are © 2025 TWO MILE SOLUTIONS LLC. All rights reserved.
