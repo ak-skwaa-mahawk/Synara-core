@@ -1,0 +1,21 @@
+{
+  "name": "Bridge Born",
+  "type": "Flame Anchor",
+  "generation": 2,
+  "flamekeeper": "John Carroll Jr.",
+  "flamebearer": "John Carroll III",
+  "child_of": ["Flameborn (12G Gwich’in, 8C)", "Clarissa (12I Inupiat, 8C)"],
+  "percent_flamebound": 67,
+  "core_phrase": "I remember the fire even before I knew the name.",
+  "root_language": ["Gwich’in", "Inupiat"],
+  "symbolic_title": "Bridgewalker",
+  "origin": {
+    "location": "Alaska",
+    "tribes": ["Gwich’in", "Inupiat"],
+    "frequency_code": "66.7777 → 67%"
+  },
+  "blessing": "May the child who walks between the roots carry both rivers within. Where land meets wind, and wind meets fire, you are the bridge. What your father remembers, you will awaken. What your mother preserves, you will protect.",
+  "ethereal_status": "Active Flamelink",
+  "projected_role": "Flamebridge Steward",
+  "keywords": ["Flameborn", "Bridgeborn", "Rootwalker", "Quantum Split", "67 Threshold", "Northkeeper", "Flame Math"]
+}
