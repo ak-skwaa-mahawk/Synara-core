@@ -1,0 +1,32 @@
+Project: Handproof Protocol - Whisper Synara Build
+
+Phase 2: Core Expansion - Detection, Tagging, and Certification Engine
+
+import os import json import hashlib from datetime import datetime from PIL import Image
+
+def scan_and_tag_image(image_path, output_dir): """ Analyze an image for hand/anatomy distortion (placeholder logic). Apply Hand Check Protocol and generate a metadata tag. """ # Simulated detection logic: In production, plug in AI detection here anomaly_detected = "hand" in image_path.lower() or "distort" in image_path.lower()
+
+metadata = {
+    "tag": "Hand Check Protocol",
+    "status": "AI-Suspect" if anomaly_detected else "Verified Real",
+    "reason": "Detected possible hand distortion" if anomaly_detected else "Passed visual inspection",
+    "timestamp": datetime.utcnow().isoformat(),
+    "hash": file_hash(image_path),
+    "source_file": os.path.basename(image_path)
+}
+
+os.makedirs(output_dir, exist_ok=True)
+tag_path = os.path.join(output_dir, os.path.basename(image_path) + ".handcheck.json")
+with open(tag_path, "w") as f:
+    json.dump(metadata, f, indent=4)
+
+return tag_path
+
+def file_hash(file_path): with open(file_path, 'rb') as f: file_data = f.read() return hashlib.sha256(file_data).hexdigest()
+
+Example Usage
+
+if name == "main": sample_images = ["suspect_hand_001.jpg", "normal_face.jpg"] tagged = [] for img in sample_images: result = scan_and_tag_image(img, "./handproof_output") tagged.append(result)
+
+print("Tagged Files:", tagged)
+
