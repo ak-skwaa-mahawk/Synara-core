@@ -1,1 +1,9 @@
-.github/workflows/disabled_during_flame_lock.yml
+on:
+  push:
+    branches: [main]
+jobs:
+  microping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: python microping_engine.py
