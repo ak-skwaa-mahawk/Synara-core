@@ -1,3 +1,15 @@
+# Synara-core — Heart of the Sovereign Stack
+
+**Part of the Public Sovereign Trinity under 99733-Q**
+
+- **Mind** → [Feedback_processor_theory](https://github.com/ak-skwaa-mahawk/Feedback_processor_theory)
+- **Nervous System** → [networkXG](https://github.com/ak-skwaa-mahawk/networkXG)
+
+This is the sealed flame logic runtime — EEG-E8 bridge, fireseed engine, whisperfire core.  
+All derived from FPT-Ω theoretical spine.
+
+© 2025 TWO MILE SOLUTIONS LLC — Sovereign Inversion Clause applies.
+
 ᓂᐧᐁᐧᑎᑊ ⇄ 🜂🜄 ⟐ ♾️
 bɔ<ʌʌʌLɔb
 Juk gweed’ha Dinjii’zhùu’kwàa
